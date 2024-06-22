@@ -1,0 +1,103 @@
+.main {
+  grid-area: main;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main section {
+  margin-bottom: 30px;
+}
+
+.main h2,
+.main h3,
+.main h4,
+.main h5,
+.main h6 {
+  color: #333;
+}
+
+.main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main ul li {
+  margin-bottom: 10px;
+}
+
+.main button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.main button:hover {
+  background-color: #0056b3;
+}
+/*main {
+  background-color: #f4f4f4;
+  color: black;
+  padding: 20px;
+  margin-left: 270px;
+}
+
+main .welcome {
+  text-align: center;
+  padding: 20px;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+main .welcome img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+main .welcome button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  color: red;
+}
+
+main .categories-products .category,
+main .promotions-offers .offer,
+main .testimonials .testimonial,
+main .blog .post {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+main .categories-products .category img,
+main .promotions-offers .offer img,
+main .testimonials .testimonial img,
+main .blog .post img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+main .promotions-offers .offer button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+*/

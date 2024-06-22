@@ -1,0 +1,141 @@
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(
+    to right,
+    black,
+    black,
+    black,
+    rgb(180, 24, 24),
+    black,
+    black
+  ); /* Degradado de negro a rojo */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+  height: 50px; /* Ajusta según el tamaño de tu logo */
+}
+
+.header nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  margin-right: 20px;
+}
+
+.header nav ul li a {
+  color: white; /* Asegura que el texto del menú sea blanco para mejor legibilidad */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+.header .search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.header .search-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.header .search-bar button {
+  padding: 8px;
+  margin-left: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.action-buttons {
+  justify-content: space-between;
+  background-color: none;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+
+  align-items: center;
+  gap: 35px;
+}
+.action-buttons a {
+  text-decoration: none;
+  color: white;
+}
+/*header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+  background-color: red;
+  border: none;
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.search-bar button img {
+  max-height: 20px;
+}
+
+.action-buttons button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.action-buttons button img {
+  max-height: 20px;
+}
+*/

@@ -1,0 +1,130 @@
+.aside {
+  grid-area: aside;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aside ul li {
+  margin-bottom: 15px;
+  position: relative; /* Añadido para posicionar correctamente los submenús */
+}
+
+.aside ul ul {
+  display: none; /* Oculta los submenús por defecto */
+  position: absolute;
+  top: 0;
+  left: 100%; /* Para posicionar a la derecha del elemento padre */
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Asegura que esté por encima de otros elementos */
+}
+
+.aside ul ul li {
+  margin-bottom: 10px;
+}
+
+.aside a {
+  text-decoration: none;
+  color: #333;
+}
+
+.aside a:hover {
+  color: #007bff;
+}
+
+/* Mostrar submenú al hover */
+.aside ul li.menu-item:hover > ul {
+  display: block;
+}
+
+/*aside {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+   /* Permite el desplazamiento si el contenido es demasiado alto 
+}
+
+aside nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  /* Espacio entre los elementos de la lista 
+}
+
+aside nav ul li {
+  display: block;
+}
+
+aside nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+aside nav ul li a:hover {
+  background-color: red;
+}
+
+aside nav ul li ul {
+  display: none;
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+aside nav ul li ul li a {
+  font-weight: normal;
+  color: #ccc;
+  background-color: #555;
+}
+
+aside nav ul li ul li a:hover {
+  background-color: #777;
+}
+
+aside nav ul li.menu-item:hover > ul.submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+aside .social-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+   /* Empuja las redes sociales al final 
+}
+
+aside .social-links a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+aside .social-links a img {
+  max-height: 20px;
+}
+*/
